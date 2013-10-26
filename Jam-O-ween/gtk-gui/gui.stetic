@@ -8,7 +8,7 @@
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <widget-library name="../bin/Debug/Jam-O-ween.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MainWindow" design-size="400 300">
+  <widget class="Gtk.Window" id="MainWindow" design-size="400 705">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -36,9 +36,13 @@
                     <property name="MemberName" />
                     <property name="Spacing">6</property>
                     <child>
-                      <widget class="Gtk.Image" id="img_TL">
+                      <widget class="Gtk.Button" id="img_TL">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">0</property>
@@ -48,9 +52,13 @@
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Image" id="img_TM">
+                      <widget class="Gtk.Button" id="button2">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">1</property>
@@ -60,9 +68,13 @@
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Image" id="img_TR">
+                      <widget class="Gtk.Button" id="button3">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">2</property>
@@ -84,9 +96,13 @@
                     <property name="MemberName" />
                     <property name="Spacing">6</property>
                     <child>
-                      <widget class="Gtk.Image" id="img_ML">
+                      <widget class="Gtk.Button" id="button4">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">0</property>
@@ -96,9 +112,13 @@
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Image" id="img_MM">
+                      <widget class="Gtk.Button" id="button5">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">1</property>
@@ -108,9 +128,13 @@
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Image" id="img_MR">
+                      <widget class="Gtk.Button" id="button6">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">2</property>
@@ -132,9 +156,13 @@
                     <property name="MemberName" />
                     <property name="Spacing">6</property>
                     <child>
-                      <widget class="Gtk.Image" id="img_BL">
+                      <widget class="Gtk.Button" id="button9">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">0</property>
@@ -144,9 +172,13 @@
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Image" id="img_BM">
+                      <widget class="Gtk.Button" id="button8">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">1</property>
@@ -156,9 +188,13 @@
                       </packing>
                     </child>
                     <child>
-                      <widget class="Gtk.Image" id="img_BR">
+                      <widget class="Gtk.Button" id="button7">
                         <property name="MemberName" />
-                        <property name="Pixbuf">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextAndIcon</property>
+                        <property name="Icon">resource:JamOween.img.Warewolf Template.png</property>
+                        <property name="Label" translatable="yes" />
+                        <property name="UseUnderline">True</property>
                       </widget>
                       <packing>
                         <property name="Position">2</property>

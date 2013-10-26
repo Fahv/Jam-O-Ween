@@ -10,7 +10,9 @@ namespace JamOween
 			Application.Init ();
 			MainWindow win = new MainWindow ();
 			win.Show ();
+			Game g = new Game();
 			Application.Run ();
+
 		}
 	}
 }

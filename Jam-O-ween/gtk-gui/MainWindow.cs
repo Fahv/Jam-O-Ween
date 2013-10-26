@@ -7,17 +7,17 @@ public partial class MainWindow
 	private global::Gtk.HBox hbox1;
 	private global::Gtk.VBox vbox2;
 	private global::Gtk.HBox hbox3;
-	private global::Gtk.Image img_TL;
-	private global::Gtk.Image img_TM;
-	private global::Gtk.Image img_TR;
+	private global::Gtk.Button img_TL;
+	private global::Gtk.Button button2;
+	private global::Gtk.Button button3;
 	private global::Gtk.HBox hbox4;
-	private global::Gtk.Image img_ML;
-	private global::Gtk.Image img_MM;
-	private global::Gtk.Image img_MR;
+	private global::Gtk.Button button4;
+	private global::Gtk.Button button5;
+	private global::Gtk.Button button6;
 	private global::Gtk.HBox hbox5;
-	private global::Gtk.Image img_BL;
-	private global::Gtk.Image img_BM;
-	private global::Gtk.Image img_BR;
+	private global::Gtk.Button button9;
+	private global::Gtk.Button button8;
+	private global::Gtk.Button button7;
 	
 	protected virtual void Build ()
 	{
@@ -43,125 +43,260 @@ public partial class MainWindow
 		this.hbox3.Name = "hbox3";
 		this.hbox3.Spacing = 6;
 		// Container child hbox3.Gtk.Box+BoxChild
-		this.img_TL = new global::Gtk.Image ();
+		this.img_TL = new global::Gtk.Button ();
+		this.img_TL.CanFocus = true;
 		this.img_TL.Name = "img_TL";
-		this.img_TL.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		this.img_TL.UseUnderline = true;
+		// Container child img_TL.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w1 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w2 = new global::Gtk.HBox ();
+		w2.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w3 = new global::Gtk.Image ();
+		w3.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w2.Add (w3);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w5 = new global::Gtk.Label ();
+		w2.Add (w5);
+		w1.Add (w2);
+		this.img_TL.Add (w1);
 		this.hbox3.Add (this.img_TL);
-		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.img_TL]));
-		w1.Position = 0;
-		w1.Expand = false;
-		w1.Fill = false;
+		global::Gtk.Box.BoxChild w9 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.img_TL]));
+		w9.Position = 0;
+		w9.Expand = false;
+		w9.Fill = false;
 		// Container child hbox3.Gtk.Box+BoxChild
-		this.img_TM = new global::Gtk.Image ();
-		this.img_TM.Name = "img_TM";
-		this.img_TM.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox3.Add (this.img_TM);
-		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.img_TM]));
-		w2.Position = 1;
-		w2.Expand = false;
-		w2.Fill = false;
+		this.button2 = new global::Gtk.Button ();
+		this.button2.CanFocus = true;
+		this.button2.Name = "button2";
+		this.button2.UseUnderline = true;
+		// Container child button2.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w10 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w11 = new global::Gtk.HBox ();
+		w11.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w12 = new global::Gtk.Image ();
+		w12.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w11.Add (w12);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w14 = new global::Gtk.Label ();
+		w11.Add (w14);
+		w10.Add (w11);
+		this.button2.Add (w10);
+		this.hbox3.Add (this.button2);
+		global::Gtk.Box.BoxChild w18 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.button2]));
+		w18.Position = 1;
+		w18.Expand = false;
+		w18.Fill = false;
 		// Container child hbox3.Gtk.Box+BoxChild
-		this.img_TR = new global::Gtk.Image ();
-		this.img_TR.Name = "img_TR";
-		this.img_TR.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox3.Add (this.img_TR);
-		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.img_TR]));
-		w3.Position = 2;
-		w3.Expand = false;
-		w3.Fill = false;
+		this.button3 = new global::Gtk.Button ();
+		this.button3.CanFocus = true;
+		this.button3.Name = "button3";
+		this.button3.UseUnderline = true;
+		// Container child button3.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w19 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w20 = new global::Gtk.HBox ();
+		w20.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w21 = new global::Gtk.Image ();
+		w21.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w20.Add (w21);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w23 = new global::Gtk.Label ();
+		w20.Add (w23);
+		w19.Add (w20);
+		this.button3.Add (w19);
+		this.hbox3.Add (this.button3);
+		global::Gtk.Box.BoxChild w27 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.button3]));
+		w27.Position = 2;
+		w27.Expand = false;
+		w27.Fill = false;
 		this.vbox2.Add (this.hbox3);
-		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.hbox3]));
-		w4.Position = 0;
-		w4.Expand = false;
-		w4.Fill = false;
+		global::Gtk.Box.BoxChild w28 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.hbox3]));
+		w28.Position = 0;
+		w28.Expand = false;
+		w28.Fill = false;
 		// Container child vbox2.Gtk.Box+BoxChild
 		this.hbox4 = new global::Gtk.HBox ();
 		this.hbox4.Name = "hbox4";
 		this.hbox4.Spacing = 6;
 		// Container child hbox4.Gtk.Box+BoxChild
-		this.img_ML = new global::Gtk.Image ();
-		this.img_ML.Name = "img_ML";
-		this.img_ML.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox4.Add (this.img_ML);
-		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.img_ML]));
-		w5.Position = 0;
-		w5.Expand = false;
-		w5.Fill = false;
+		this.button4 = new global::Gtk.Button ();
+		this.button4.CanFocus = true;
+		this.button4.Name = "button4";
+		this.button4.UseUnderline = true;
+		// Container child button4.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w29 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w30 = new global::Gtk.HBox ();
+		w30.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w31 = new global::Gtk.Image ();
+		w31.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w30.Add (w31);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w33 = new global::Gtk.Label ();
+		w30.Add (w33);
+		w29.Add (w30);
+		this.button4.Add (w29);
+		this.hbox4.Add (this.button4);
+		global::Gtk.Box.BoxChild w37 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.button4]));
+		w37.Position = 0;
+		w37.Expand = false;
+		w37.Fill = false;
 		// Container child hbox4.Gtk.Box+BoxChild
-		this.img_MM = new global::Gtk.Image ();
-		this.img_MM.Name = "img_MM";
-		this.img_MM.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox4.Add (this.img_MM);
-		global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.img_MM]));
-		w6.Position = 1;
-		w6.Expand = false;
-		w6.Fill = false;
+		this.button5 = new global::Gtk.Button ();
+		this.button5.CanFocus = true;
+		this.button5.Name = "button5";
+		this.button5.UseUnderline = true;
+		// Container child button5.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w38 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w39 = new global::Gtk.HBox ();
+		w39.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w40 = new global::Gtk.Image ();
+		w40.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w39.Add (w40);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w42 = new global::Gtk.Label ();
+		w39.Add (w42);
+		w38.Add (w39);
+		this.button5.Add (w38);
+		this.hbox4.Add (this.button5);
+		global::Gtk.Box.BoxChild w46 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.button5]));
+		w46.Position = 1;
+		w46.Expand = false;
+		w46.Fill = false;
 		// Container child hbox4.Gtk.Box+BoxChild
-		this.img_MR = new global::Gtk.Image ();
-		this.img_MR.Name = "img_MR";
-		this.img_MR.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox4.Add (this.img_MR);
-		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.img_MR]));
-		w7.Position = 2;
-		w7.Expand = false;
-		w7.Fill = false;
+		this.button6 = new global::Gtk.Button ();
+		this.button6.CanFocus = true;
+		this.button6.Name = "button6";
+		this.button6.UseUnderline = true;
+		// Container child button6.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w47 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w48 = new global::Gtk.HBox ();
+		w48.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w49 = new global::Gtk.Image ();
+		w49.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w48.Add (w49);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w51 = new global::Gtk.Label ();
+		w48.Add (w51);
+		w47.Add (w48);
+		this.button6.Add (w47);
+		this.hbox4.Add (this.button6);
+		global::Gtk.Box.BoxChild w55 = ((global::Gtk.Box.BoxChild)(this.hbox4 [this.button6]));
+		w55.Position = 2;
+		w55.Expand = false;
+		w55.Fill = false;
 		this.vbox2.Add (this.hbox4);
-		global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.hbox4]));
-		w8.Position = 1;
-		w8.Expand = false;
-		w8.Fill = false;
+		global::Gtk.Box.BoxChild w56 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.hbox4]));
+		w56.Position = 1;
+		w56.Expand = false;
+		w56.Fill = false;
 		// Container child vbox2.Gtk.Box+BoxChild
 		this.hbox5 = new global::Gtk.HBox ();
 		this.hbox5.Name = "hbox5";
 		this.hbox5.Spacing = 6;
 		// Container child hbox5.Gtk.Box+BoxChild
-		this.img_BL = new global::Gtk.Image ();
-		this.img_BL.Name = "img_BL";
-		this.img_BL.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox5.Add (this.img_BL);
-		global::Gtk.Box.BoxChild w9 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.img_BL]));
-		w9.Position = 0;
-		w9.Expand = false;
-		w9.Fill = false;
+		this.button9 = new global::Gtk.Button ();
+		this.button9.CanFocus = true;
+		this.button9.Name = "button9";
+		this.button9.UseUnderline = true;
+		// Container child button9.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w57 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w58 = new global::Gtk.HBox ();
+		w58.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w59 = new global::Gtk.Image ();
+		w59.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w58.Add (w59);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w61 = new global::Gtk.Label ();
+		w58.Add (w61);
+		w57.Add (w58);
+		this.button9.Add (w57);
+		this.hbox5.Add (this.button9);
+		global::Gtk.Box.BoxChild w65 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.button9]));
+		w65.Position = 0;
+		w65.Expand = false;
+		w65.Fill = false;
 		// Container child hbox5.Gtk.Box+BoxChild
-		this.img_BM = new global::Gtk.Image ();
-		this.img_BM.Name = "img_BM";
-		this.img_BM.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox5.Add (this.img_BM);
-		global::Gtk.Box.BoxChild w10 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.img_BM]));
-		w10.Position = 1;
-		w10.Expand = false;
-		w10.Fill = false;
+		this.button8 = new global::Gtk.Button ();
+		this.button8.CanFocus = true;
+		this.button8.Name = "button8";
+		this.button8.UseUnderline = true;
+		// Container child button8.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w66 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w67 = new global::Gtk.HBox ();
+		w67.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w68 = new global::Gtk.Image ();
+		w68.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w67.Add (w68);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w70 = new global::Gtk.Label ();
+		w67.Add (w70);
+		w66.Add (w67);
+		this.button8.Add (w66);
+		this.hbox5.Add (this.button8);
+		global::Gtk.Box.BoxChild w74 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.button8]));
+		w74.Position = 1;
+		w74.Expand = false;
+		w74.Fill = false;
 		// Container child hbox5.Gtk.Box+BoxChild
-		this.img_BR = new global::Gtk.Image ();
-		this.img_BR.Name = "img_BR";
-		this.img_BR.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
-		this.hbox5.Add (this.img_BR);
-		global::Gtk.Box.BoxChild w11 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.img_BR]));
-		w11.Position = 2;
-		w11.Expand = false;
-		w11.Fill = false;
+		this.button7 = new global::Gtk.Button ();
+		this.button7.CanFocus = true;
+		this.button7.Name = "button7";
+		this.button7.UseUnderline = true;
+		// Container child button7.Gtk.Container+ContainerChild
+		global::Gtk.Alignment w75 = new global::Gtk.Alignment (0.5F, 0.5F, 0F, 0F);
+		// Container child GtkAlignment.Gtk.Container+ContainerChild
+		global::Gtk.HBox w76 = new global::Gtk.HBox ();
+		w76.Spacing = 2;
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Image w77 = new global::Gtk.Image ();
+		w77.Pixbuf = global::Gdk.Pixbuf.LoadFromResource ("JamOween.img.Warewolf Template.png");
+		w76.Add (w77);
+		// Container child GtkHBox.Gtk.Container+ContainerChild
+		global::Gtk.Label w79 = new global::Gtk.Label ();
+		w76.Add (w79);
+		w75.Add (w76);
+		this.button7.Add (w75);
+		this.hbox5.Add (this.button7);
+		global::Gtk.Box.BoxChild w83 = ((global::Gtk.Box.BoxChild)(this.hbox5 [this.button7]));
+		w83.Position = 2;
+		w83.Expand = false;
+		w83.Fill = false;
 		this.vbox2.Add (this.hbox5);
-		global::Gtk.Box.BoxChild w12 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.hbox5]));
-		w12.Position = 2;
-		w12.Expand = false;
-		w12.Fill = false;
+		global::Gtk.Box.BoxChild w84 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.hbox5]));
+		w84.Position = 2;
+		w84.Expand = false;
+		w84.Fill = false;
 		this.hbox1.Add (this.vbox2);
-		global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.vbox2]));
-		w13.Position = 1;
-		w13.Expand = false;
-		w13.Fill = false;
+		global::Gtk.Box.BoxChild w85 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.vbox2]));
+		w85.Position = 1;
+		w85.Expand = false;
+		w85.Fill = false;
 		this.vbox1.Add (this.hbox1);
-		global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
-		w14.Position = 1;
-		w14.Expand = false;
-		w14.Fill = false;
+		global::Gtk.Box.BoxChild w86 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
+		w86.Position = 1;
+		w86.Expand = false;
+		w86.Fill = false;
 		this.Add (this.vbox1);
 		if ((this.Child != null)) {
 			this.Child.ShowAll ();
 		}
 		this.DefaultWidth = 400;
-		this.DefaultHeight = 300;
+		this.DefaultHeight = 705;
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 	}
