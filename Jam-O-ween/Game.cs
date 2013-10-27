@@ -35,6 +35,8 @@ namespace JamOween
 					}else{
 						deck.Enqueue(new Card(CardType.CardType_Warewolf));
 					}
+				}else if(tempR == 'c'){
+					deck.Enqueue(new Card(CardType.CardType_Witch));
 				}else if(tempR == 'd'){
 					deck.Enqueue(new Card(CardType.CardType_Ghost));
 				}else{

@@ -465,6 +465,7 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Label" translatable="yes">Werewolf Pack</property>
+                    <property name="Active">True</property>
                     <property name="DrawIndicator">True</property>
                     <property name="HasLabel">True</property>
                     <property name="UseUnderline">True</property>
@@ -524,6 +525,7 @@
                     <property name="Type">TextOnly</property>
                     <property name="Label" translatable="yes">Hard</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="HardGameStart" />
                   </widget>
                   <packing>
                     <property name="Position">0</property>

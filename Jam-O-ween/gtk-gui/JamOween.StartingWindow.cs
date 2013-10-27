@@ -141,6 +141,7 @@ namespace JamOween
 			this.Show ();
 			this.button5.Clicked += new global::System.EventHandler (this.EasyGameStart);
 			this.button6.Clicked += new global::System.EventHandler (this.MediumGameStart);
+			this.button7.Clicked += new global::System.EventHandler (this.HardGameStart);
 		}
 	}
 }

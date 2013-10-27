@@ -7,10 +7,11 @@ public partial class MainWindow: Gtk.Window
 	private bool doneRound;
 	private Gtk.Button firstClickedButton;
 	private bool multiple;
+	private bool witch;
 	public MainWindow (): base (Gtk.WindowType.Toplevel)
 	{
 		Build ();
-		resetBoardShown ();
+		resetBoardShown();
 		updateLabels ();
 		if (JamOween.Player.clan == 1) {
 			lb_clan.Text = "You are part of a Werewolf Pack";
@@ -21,6 +22,7 @@ public partial class MainWindow: Gtk.Window
 		doneRound = false;
 		firstClickedButton = null;
 		multiple = false;
+		witch = false;
 	}
 
 	protected void OnDeleteEvent (object sender, DeleteEventArgs a)
@@ -32,10 +34,15 @@ public partial class MainWindow: Gtk.Window
 	protected void cardClicked (object sender, EventArgs e)
 	{
 		if (doneRound) {
-			resetBoard();
-			resetBoard();
-			resetBoard();
-			resetBoard();
+			if(witch){
+				resetBoardShown();
+				witch = false;
+			} else{
+				resetBoard();
+				resetBoard();
+				resetBoard();
+				resetBoard();
+			}
 			doneRound = false;
 			if(JamOween.Game.getCardsLeftInDeck() == 0){
 				gameOver(true);
@@ -93,7 +100,7 @@ public partial class MainWindow: Gtk.Window
 					}
 					if(JamOween.Game.getCardAtPos(x,y).getCardType() ==
 					   	JamOween.CardType.CardType_Witch){
-
+						witch = true;
 					}
 					
 					   

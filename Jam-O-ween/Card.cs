@@ -10,6 +10,7 @@ namespace JamOween
 		private Gtk.Image img_vampire;
 		private Gtk.Image img_warewolf;
 		private Gtk.Image img_none;
+		private Gtk.Image img_witch;
 
 		public Card ()
 		{
@@ -24,6 +25,7 @@ namespace JamOween
 			img_vampire = Gtk.Image.LoadFromResource("JamOween.img.Vampire.png");
 			img_warewolf = Gtk.Image.LoadFromResource("JamOween.img.Warewolf.png");
 			img_none = Gtk.Image.LoadFromResource("JamOween.img.Back.png");
+			img_witch = Gtk.Image.LoadFromResource("JamOween.img.Witch.png");
 			//img_ghost = new Gtk.Image.LoadFromResource("JamOween.img.Ghost.png");
 			//else if (cType == CardType.CardType_Vampire) {
 			//	img = new Gtk.Image (System.Reflection.Assembly.GetEntryAssembly ().
@@ -41,6 +43,8 @@ namespace JamOween
 				return img_vampire;
 			if(cType == CardType.CardType_Warewolf)
 				return img_warewolf;
+			if(cType == CardType.CardType_Witch)
+				return img_witch;
 			return img_none;
 		}
 		public Gtk.Image getImageNone ()

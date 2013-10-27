@@ -67,6 +67,7 @@
     <EmbeddedResource Include="img\Vampire.png" />
     <EmbeddedResource Include="img\Warewolf.png" />
     <EmbeddedResource Include="img\startback.png" />
+    <EmbeddedResource Include="img\Witch.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />
@@ -76,7 +77,6 @@
     <Compile Include="CardType.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Constants.cs" />
-    <Compile Include="CardNoneResourceItem.cs" />
     <Compile Include="Winner.cs" />
     <Compile Include="gtk-gui\JamOween.Winner.cs" />
     <Compile Include="gtk-gui\MainWindow.cs" />
