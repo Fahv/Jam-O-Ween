@@ -7,7 +7,10 @@ namespace JamOween
 		CardType_None,
 		CardType_Warewolf,
 		CardType_Vampire,
-		CardType_Ghost
+		CardType_Ghost,
+		CardType_Witch,
+		CardType_Silver,
+		CardType_Garlic
 	}
 }
 

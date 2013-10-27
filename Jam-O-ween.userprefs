@@ -1,9 +1,25 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Jam-O-ween/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Jam-O-ween/Winner.cs">
     <Files>
-      <File FileName="Jam-O-ween/Main.cs" Line="15" Column="3" />
+      <File FileName="Jam-O-ween/MainWindow.cs" Line="68" Column="31" />
+      <File FileName="Jam-O-ween/Game.cs" Line="58" Column="15" />
+      <File FileName="Jam-O-ween/Main.cs" Line="14" Column="5" />
+      <File FileName="Jam-O-ween/Constants.cs" Line="5" Column="11" />
+      <File FileName="Jam-O-ween/Card.cs" Line="22" Column="27" />
+      <File FileName="Jam-O-ween/CardNoneResourceItem.cs" Line="9" Column="3" />
+      <File FileName="Jam-O-ween/Winner.cs" Line="8" Column="5" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Jam-O-ween" expanded="True" selected="True">
+            <Node name="UserInterface" expanded="True" />
+            <Node name="img" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

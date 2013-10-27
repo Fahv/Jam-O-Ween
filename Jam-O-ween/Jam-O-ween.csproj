@@ -62,17 +62,29 @@
     <EmbeddedResource Include="gtk-gui\gui.stetic">
       <LogicalName>gui.stetic</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="img\Warewolf Template.png" />
+    <EmbeddedResource Include="img\Ghost.png" />
+    <EmbeddedResource Include="img\Back.png" />
+    <EmbeddedResource Include="img\Vampire.png" />
+    <EmbeddedResource Include="img\Warewolf.png" />
+    <EmbeddedResource Include="img\startback.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="gtk-gui\generated.cs" />
-    <Compile Include="MainWindow.cs" />
-    <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Main.cs" />
-    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="CardType.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="CardNoneResourceItem.cs" />
+    <Compile Include="Winner.cs" />
+    <Compile Include="gtk-gui\JamOween.Winner.cs" />
+    <Compile Include="gtk-gui\MainWindow.cs" />
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="StartingWindow.cs" />
+    <Compile Include="gtk-gui\JamOween.StartingWindow.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="ShuffleBag.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

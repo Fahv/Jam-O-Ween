@@ -8,9 +8,8 @@ namespace JamOween
 		public static void Main (string[] args)
 		{
 			Application.Init ();
-			MainWindow win = new MainWindow ();
-			win.Show ();
-			Game g = new Game();
+			JamOween.StartingWindow sWin = new JamOween.StartingWindow();
+			sWin.Show();
 			Application.Run ();
 
 		}
